@@ -56,8 +56,5 @@ export const getFreeBook = async (req, res) => {
   } catch (error) {
     console.error('Error fetching free books:', error.message);
     res.status(500).json({ message: 'Error fetching free books' });
-    
-    res.status(500).json({ message: 'Error fetching free books' });
-
   }
 };
